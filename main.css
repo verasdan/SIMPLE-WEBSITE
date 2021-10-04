@@ -16,6 +16,11 @@ ul {
     font-family: helvetica;
 }
 
+.corpo{
+    margin-left: 35%;
+    margin-top: 100px;
+}
+
 .light-theme {
     --bg: var(--green);
     --fontColor: var(--black);
@@ -32,7 +37,7 @@ ul {
 
 .btn {
     position: absolute;
-    margin-left: 50px;
+    margin-left: 25%;
     top: 20px;
     left: 250px;
     height: 50px;
