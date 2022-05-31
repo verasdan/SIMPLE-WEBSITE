@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Simples</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   
 </head>
 <body class="light-theme">
+
   <div class="corpo">
     <h1>Lista de tarefas</h1>
     <p id="msg">tarefas atuais:</p>
 
+    <div id="checkbox">
+      <label class="switch">
+        <input type="checkbox" id="chkBnt">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
     <ul>
-      <li class="list">Adicionando estilos visuais</li>
-      <li class="list">Adicionado temas light and dark </li>
-      <li>Opção habilitada para trocar de temas</li>
+      <li>Site simples usando HTML e CSS;</li>
+      <li>Opção para trocar de temas;</li>
+      <li>disponiveis os temas light and dark;</li>
     </ul>
 
-      <div>
-        <button class="btn">Dark</button>
-      </div>
+  <footer>
+    <p class="para">
+      copyright © 2022 todos os direitos reservados | este site foi feito por <a href="https://github.com/verasdan">Dan Veras</a>
+    </p>
+  </footer> 
 
-  </div>  
-
-  <script src="app.js"></script>
+  <script src="assets/script/script.js"></script>
   <noscript>Você precisa habilitar Javascript pra ver o site completo</noscript>
 </body>
 </html>
